@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    <!-- Insta360 dual hemispherical cameras bringup-->
+    <node pkg="ros_insta360" exec="ros_insta360" name="ros_insta360" namespace="ros_insta360" output="screen">
+        <param name="cameraStreamFlag" value="9" />
+        <param name="dualCameraTopic" value="/insta360/dual/image_raw" />
+        <param name="rightCameraTopic" value="/insta360/right/image_raw" />
+        <param name="leftCameraTopic" value="/insta360/left/image_raw" />
+        <param name="equiCameraTopic" value="/insta360/equi/image_raw" />
+        <param name="rightCameraInfoTopic" value="/insta360/right/camera_info" />
+        <param name="leftCameraInfoTopic" value="/insta360/left/camera_info" />
+        <param name="calibFile" value="$(find-pkg-share ros_insta360)/config/Insta360X3_IAQFB23129J8E6/calib_Insta360X3_IAQFB23129J8E6.xml" />
+        <param name="dual2equi" value="true" />
+        <param name="fps" value="10"/>
+
+        <param name="txCamPose" value="0.0" />
+        <param name="tyCamPose" value="0.0" />
+        <param name="tzCamPose" value="0.0" />
+        <param name="rxCamPose" value="0.0" />
+        <param name="ryCamPose" value="0.0" />
+        <param name="rzCamPose" value="0.0" />
+
+    </node>
+
+</launch>

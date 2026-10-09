@@ -1,0 +1,144 @@
+{
+  "files": [
+    {
+      "path": "launch/insta360/bringup.xml",
+      "sha256": "aab9527da463e6447b94fd4b9d51aae0a1d71a17cd1e7a74cbe6da62c91ca602"
+    },
+    {
+      "path": "launch/insta360/bringup_22AB43221.xml",
+      "sha256": "cd2f07fae59fdb6413af0d6f7fcc9955f1468e02e0e6e3f375051160ee61b9d7"
+    },
+    {
+      "path": "config/insta360/Insta360X3_IAQFB2401F8AER/calib_Insta360X3_IAQFB2401F8AER_1024x512.xml",
+      "sha256": "c7d2aad5ff4c3cf55d25033be91fd9e28a79f6ff3466adf3d03864c1f2b9b735"
+    },
+    {
+      "path": "config/insta360/Insta360X3_IAQFB2401F8AER/calib_Insta360X3_IAQFB2401F8AER.xml",
+      "sha256": "c3ea0a6ca4a598626283a5932df4d27bdfc6da750a4a1e43acc82e9326423aca"
+    },
+    {
+      "path": "config/insta360/mask_insta360ONEX3_JRL_full.png",
+      "sha256": "ab25850b23273befa7dd409e616039de927bbd7a5b0280d52ca57382c116d79d"
+    },
+    {
+      "path": "config/insta360/Insta360X3_IAQFB23129J8E6/calib_Insta360X3_IAQFB23129J8E6.xml",
+      "sha256": "dee8f89102a93d635049969479f9366066ca648c603828a553dd3e889c373be2"
+    },
+    {
+      "path": "config/insta360/Insta360X3_IAQFB23129J8E6/calib_Insta360X3_IAQFB23129J8E6_1024x512.xml",
+      "sha256": "53460adc2a146c2cec72bcd3168e688c2f095e1b81d0a0e1e7abd71ec7671928"
+    },
+    {
+      "path": "config/insta360/mask_insta360ONEX3_IAQEF2411H33D4.png",
+      "sha256": "bd33527a247f3d0798cd81d521631ded620c47db4f120c6a3ded2f4bcb575bc3"
+    },
+    {
+      "path": "config/insta360/mask_insta360ONEX2_JRL_full.png",
+      "sha256": "180c76495ad1445d729189ff2f7b30de0874bc957e700cf45d81ad8ac796e78f"
+    },
+    {
+      "path": "config/insta360/Insta360X2_22AB43221/calib_Insta360X2_22AB43221.xml",
+      "sha256": "d89ac2c9bd7b36feda6afc1c7a52766bf86aa0fb17263629ab923caaa2e143fc"
+    },
+    {
+      "path": "config/insta360/Insta360X2_22AB43221/calib_Insta360X2_22AB43221-manual.xml",
+      "sha256": "f119b1dd3f68926290177cbf0cbe46585adb28d7bb4a446eade1f16a2531ef60"
+    },
+    {
+      "path": "config/insta360/Insta360X3_IAQEF2411H33D4/calib_Insta360X3_IAQEF2411H33D4.xml",
+      "sha256": "78df5c0ad7d8e63b3ce15567af4ba06dfb62c884a552096c18612c2798e808f7"
+    },
+    {
+      "path": "config/insta360/Insta360X3_IAQEF2411H33D4/calib_Insta360X3_IAQEF2411H33D4_1024x512.xml",
+      "sha256": "28bfe73edc2d44af6af99d7fac241462294999a078417d7e574f6e142b552651"
+    },
+    {
+      "path": "config/insta360/mask_insta360ONEX2_CIAD_full.png",
+      "sha256": "180c76495ad1445d729189ff2f7b30de0874bc957e700cf45d81ad8ac796e78f"
+    },
+    {
+      "path": "config/stella/input/JRL_equirgb_1280x720.yaml",
+      "sha256": "86ad894e2bd7ae4bd7af9ac15988075deb0689be11bce290b6e771de22a86ef9"
+    },
+    {
+      "path": "config/stella/input/rap_rev/FLIR_1024_AC.yaml",
+      "sha256": "c925c814549fb098a58019485790c07448ead3652daef526ecf2ed6fcac1b45c"
+    },
+    {
+      "path": "config/stella/input/rap_rev/_IDS_1024_GC.yaml",
+      "sha256": "e22c0de1085f134c9da4f8198cfa2916d69ec8589351f1144cb65dcd47a77c45"
+    },
+    {
+      "path": "config/stella/input/rap_rev/FLIR.png",
+      "sha256": "2301e5d1f2f38f7db88b4617285448720fffb8804756e1430ed556010f4e8435"
+    },
+    {
+      "path": "config/stella/input/rap_rev/IDS_1024_AC_2122.yaml",
+      "sha256": "87b08f25481814571d4603c6942a286bf6ae047a00074cb14071402e43cf4206"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/Mask_FLIR_89_1bit.png",
+      "sha256": "385ced89d84f8dfb10e3c4244d992d2b3fe38d3fa622f403689cbbfcd6909fdb"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/Mask_IDS_89.png",
+      "sha256": "b40638a59d53368645cd40c783cc36b980940f9c15cef02009f396f9680feb19"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/Mask_FLIR_89.png",
+      "sha256": "d161fddbadde833d8351c5943efdfda7fd4881f0db516d60322cf3cf4981fa3c"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/FLIR_1024_20FPS.yaml",
+      "sha256": "79f679e3242904ff7a18ef20508ec5f774e8eff10a6b8f32ac3357e9fb1a8779"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/FLIR_1024.yaml",
+      "sha256": "973089fe7d83b3b0557a0ad1a8d9e7611d1617a583751f3d76e1882b6aa2555d"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/IDS_1024.yaml",
+      "sha256": "559af5cd4821dde7ba7f0b72430b59715b49fb06cb4fa195d745eab190684f89"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/Mask_IDS_89_1bit.png",
+      "sha256": "7f517637ebfd2ee6081409f7408c08107cb53343927a4012280593e7d589ef29"
+    },
+    {
+      "path": "config/stella/input/rap_rev/old/IDS_1024_18FPS.yaml",
+      "sha256": "d04406a8c1a5689953fc64d9495891045551b91df30bd6b6b9f045cf260dab47"
+    },
+    {
+      "path": "config/stella/input/rap_rev/FLIR_89_505_496.png",
+      "sha256": "dc8c0d3948115230f953d7b3771d177cc4203f1d37f919173d06ee0234f27242"
+    },
+    {
+      "path": "config/stella/input/rap_rev/IDS_1024_AC_1866.yaml",
+      "sha256": "52893625c571765c3f053305165c538fe56a2b75704fcc61afa24edaaadabe63"
+    },
+    {
+      "path": "config/stella/input/rap_rev/IDS.png",
+      "sha256": "97b2d4beb58c7d4335d62cde77c34fdebeb77f6a744d24c4f51e82f73b3d88e4"
+    },
+    {
+      "path": "config/stella/input/rap_rev/IDS_89_496_498.png",
+      "sha256": "b69cb9788980ed81fee69c4ceabc2a9d6963170bf463c0fde25737ba1868c1cf"
+    },
+    {
+      "path": "config/stella/input/JRL_MC_equirgb_thetaS_1280x720.yaml",
+      "sha256": "dc541ffdbd545553fd35c7d58ef7ba6c6cffbfb41ec553cba30b8125b290dc1a"
+    },
+    {
+      "path": "launch/ids/ids_gps_recorder.launch.py",
+      "sha256": "9d007a5e0ed75bf530df30cfcca124240c0410196750cd9f93e6eaacf9907f09"
+    },
+    {
+      "path": "launch/ids/ids_hdr.launch.py",
+      "sha256": "31bca788b0c5a19bd8e62880e366668b9867d48fee65a277734da88069f55b61"
+    },
+    {
+      "path": "launch/ids/ids_gps_forRecord.launch.py",
+      "sha256": "16ebfd78a75b51f167713ad8dc13e037eab3783d08bb92990c3b811cc63fc553"
+    }
+  ]
+}

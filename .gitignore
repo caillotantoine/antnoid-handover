@@ -1,0 +1,10 @@
+build/
+install/
+log/
+__pycache__/
+*.msg
+*.fbow
+*.db3
+*.mcap
+
+config/local.env

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<root>
+  <!--M.I.S. Laboratory - Eynard Caron-->
+  <system>
+    <!--Number of cameras in the system-->
+    <NbCams>2</NbCams>
+    <camera>
+      <!--Name of the camera-->
+      <name>Omni</name>
+      <!--Type of the camera-->
+      <type>0</type>
+      <!--Pixel ratio-->
+      <au>327.366797024</au>
+      <av>328.686329094</av>
+      <!--Principal point-->
+      <u0>768.01289824</u0>
+      <v0>253.50396368</v0>
+      <!--Xi-->
+      <xi>1.3620101479</xi>
+      <!--Camera number on the system-->
+      <NoCam>0</NoCam>
+      <!--Relative pose to the system origin-->
+      <pose>
+        <tX>0.0000000000</tX>
+        <tY>0.0000000000</tY>
+        <tZ>0.0000000000</tZ>
+        <thuX>0.0000000000</thuX>
+        <thuY>0.0000000000</thuY>
+        <thuZ>0.0000000000</thuZ>
+      </pose>
+    </camera>
+    <camera>
+      <!--Name of the camera-->
+      <name>Omni</name>
+      <!--Type of the camera-->
+      <type>0</type>
+      <!--Pixel ratio-->
+      <au>336.555436344</au>
+      <av>336.746488036</av>
+      <!--Principal point-->
+      <u0>256.482401743</u0>
+      <v0>255.061153703</v0>
+      <!--Xi-->
+      <xi>1.3985768346</xi>
+      <!--Camera number on the system-->
+      <NoCam>1</NoCam>
+      <!--Relative pose to the system origin-->
+      <pose>
+        <tX>-0.0027441298</tX>
+        <tY>-0.0009105791</tY>
+        <tZ>-0.0254801111</tZ>
+        <thuX>-0.0348230162</thuX>
+        <thuY>-3.1329703687</thuY>
+        <thuZ>0.0173330181</thuZ>
+      </pose>
+    </camera>
+  </system>
+</root>

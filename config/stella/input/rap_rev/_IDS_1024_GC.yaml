@@ -1,0 +1,83 @@
+# Omnidirectional model for images generated from RICOH THETA V
+
+#==============#
+# Camera Model #
+#==============#
+
+Camera:
+  name: "IDS UI 3370 with Fujinon 185 F1.8 / 2.7mm "
+  setup: "monocular"
+  model: "fisheye"
+
+#Since the resolution is binned to 1024x1024 pixels, fx = fy = 2.7/(2*0.0055)
+  fx: 245.455
+  fy: 245.455
+  cx: 497
+  cy: 490.5
+  k1: 0.0000000000000000000000001
+  k2: 0
+  k3: 0
+  k4: 0
+
+  fps: 18.66
+  cols: 1024
+  rows: 1024
+
+  color_order: "BGR"
+
+#  rois: [{x: 0, y: 0, width: 2048, height: 1024, scaleW: 2048, scaleH: 2048}, 
+#    {x: 0, y: 1024, width: 2048, height: 1024, scaleW: 2048, scaleH: 2048}]
+# #hdr {x: 0, y: 0, width: 2048, height: 2048, scaleW: 2048, scaleH: 2048}
+#   rois: [{x: 0, y: 0, width: 2048, height: 2048, scaleW: 2048, scaleH: 2048}]
+
+#   pose : [[1, 7, 8, 9], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+
+#=====================#
+# Tracking Parameters #
+#=====================#
+
+Preprocessing:
+  min_size: 230
+
+#Relocalizer:
+#  search_neighbor: true
+#  top_n_covisibilities_to_search: 500
+
+LoopDetector:
+  enabled: true
+#  loop_min_distance_on_graph: 2
+  
+#================#
+# ORB Parameters #
+#================#
+
+Feature:
+  name: "ORB feature extraction setting"
+  scale_factor: 1.1
+  num_levels: 16
+  ini_fast_threshold: 40
+  min_fast_threshold: 7
+  
+#Tracking:
+#  enable_auto_relocalization: true
+  
+
+#====================#
+# Mapping Parameters #
+#====================#
+
+Mapping:
+  backend: "g2o"
+  baseline_dist_thr_ratio: 0.02
+  redundant_obs_ratio_thr: 0.95
+  num_covisibilities_for_landmark_generation: 20
+  num_covisibilities_for_landmark_fusion: 20
+
+#============================#
+# SocketPublisher Parameters #
+#============================#
+
+# append this entry
+SocketPublisher:
+  server_uri: "http://nodejs:3000"
+  image_quality: 0.9
