@@ -32,6 +32,51 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
 Use `route1` for a new route, or replace it consistently with another name. Keep its map and waypoint YAML together.
 
+## Wi-Fi: switch between the hotspot and AIST-Guest
+
+Run these commands on the NUC, outside Docker. Stop autonomous navigation before switching networks. If SSH uses the Wi-Fi interface being switched, the session will disconnect; use a local terminal or a separate wired connection so you can switch back.
+
+List the saved profiles and the active connection:
+
+```bash
+nmcli -f NAME,TYPE,DEVICE connection show
+nmcli connection show --active
+```
+
+Use the saved connection names, which may differ from the Wi-Fi SSIDs. Note the hotspot profile name before leaving it.
+
+### Hotspot to AIST-Guest
+
+Activate the existing guest profile:
+
+```bash
+sudo nmcli connection up id "aist-guest"
+```
+
+If the saved profile has another name, use that exact name. When both profiles use the same Wi-Fi interface, activating the guest profile replaces the hotspot; no separate `connection down` is needed.
+
+Check the address and Internet access from a local or wired terminal:
+
+```bash
+nmcli device status
+ip -brief address
+nmcli networking connectivity check
+```
+
+Complete guest-network authentication if required. Joining AIST-Guest does not guarantee that another Wi-Fi client can reach the NUC by SSH.
+
+### AIST-Guest to hotspot
+
+Activate the existing hotspot profile, replacing `HOTSPOT_PROFILE` with the name noted above:
+
+```bash
+sudo nmcli connection up id "HOTSPOT_PROFILE"
+```
+
+Reconnect the operator laptop to the robot hotspot, then reconnect with `ssh ROBOT_USER@ROBOT_HOST` using the hotspot address. The guest-network session will disconnect if it uses the same Wi-Fi interface.
+
+After either switch, check the network interface used by CycloneDDS if ROS nodes no longer communicate; see [the troubleshooting section](#troubleshooting-ros-nodes-cannot-communicate). These commands reuse saved profiles and do not change the wired Go1 driver connection.
+
 ## 1. Power on the Go1 and start its driver
 
 ### Power and remote control
